@@ -18,7 +18,7 @@ const MySideBar = () => {
       <div className="fixed flex flex-col top-0 left-0 w-[20%] bg-white h-full border-r">
         <div className="bg-[url('/SideBarHeaderBG.png')] bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b">
           <div className="font-black flex items-center justify-center gap-4 px-2 bg-white border cursor-default select-none shadow-md">
-            BounaderMedRafik
+            zebiBounader
             <div className="relative flex">
               <RxEyeClosed className="" />
             </div>{" "}
