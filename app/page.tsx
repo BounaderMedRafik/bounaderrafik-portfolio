@@ -4,11 +4,16 @@ import MyHeroSection from "./components/HeroSection/MyHeroSection";
 
 export default function Home() {
   return (
-    <main>
-      <MySideBar />
-      <div className="ml-[20%]">
-        <MyHeroSection />
+    <>
+      <main className="hidden md:block">
+        <MySideBar />
+        <div className="ml-[20%]">
+          <MyHeroSection />
+        </div>
+      </main>
+      <div className=" md:hidden h-screen w-full flex justify-center items-center">
+        No Mobile Support
       </div>
-    </main>
+    </>
   );
 }

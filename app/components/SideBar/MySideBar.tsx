@@ -11,19 +11,23 @@ import { TbStarFilled } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 const MySideBar = () => {
   return (
     <div className=" flex flex-col flex-auto flex-shrink-0 antialiased  text-gray-800">
       <div className="fixed flex flex-col top-0 left-0 w-[20%] bg-white h-full border-r">
-        <div className="bg-[url('/SideBarHeaderBG.png')] bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b">
-          <div className="font-black flex items-center justify-center gap-4 px-2 bg-white border cursor-default select-none shadow-md">
-            BounaderMedRafik
-            <div className="relative flex">
-              <RxEyeClosed className="" />
-            </div>{" "}
+        <Link href="/">
+          <div className="bg-[url('/SideBarHeaderBG.png')] bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b hover:opacity-80 transition-all">
+            <div className="font-black flex items-center justify-center gap-4 px-2 bg-white border cursor-default select-none shadow-md pointer-events-none">
+              BounaderMedRafik
+              <div className="relative flex">
+                <RxEyeClosed className="" />
+              </div>{" "}
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="overflow-y-auto overflow-x-hidden flex-grow">
           <ul className="flex flex-col py-4 space-y-1">
             <li className="px-5">
@@ -144,19 +148,24 @@ const MySideBar = () => {
 
             <div className="ml-4 text-gray-600">
               <ul className="w-full h-auto flex items-center justify-start gap-2 ">
-                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-red-400 border-transparent border-b-2">
+                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-purple-400 border-transparent border-b-2">
                   <a href="">
                     <FaInstagram className="w-5 h-5" />
                   </a>
                 </li>
-                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-red-400 border-transparent border-b-2">
+                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-slate-400 border-transparent border-b-2">
                   <a href="">
                     <FaGithub className="w-5 h-5" />
                   </a>
                 </li>
-                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-red-400 border-transparent border-b-2">
+                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-blue-400 border-transparent border-b-2">
                   <a href="">
                     <FaLinkedinIn className="w-5 h-5" />
+                  </a>
+                </li>
+                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-red-400 border-transparent border-b-2">
+                  <a href="">
+                    <FaYoutube className="w-5 h-5" />
                   </a>
                 </li>
               </ul>
