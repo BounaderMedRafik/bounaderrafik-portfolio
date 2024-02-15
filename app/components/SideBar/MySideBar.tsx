@@ -38,8 +38,8 @@ const MySideBar = () => {
               </div>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/AboutMe"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 transition-all pr-6"
               >
                 <div className="inline-flex justify-center items-center ml-4">
@@ -49,7 +49,7 @@ const MySideBar = () => {
                 <span className="ml-2 text-sm tracking-wide truncate">
                   About Me
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
               <a
