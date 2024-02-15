@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <>
       <main className="hidden md:block">
-        <MySideBar />
+        <div className="relative z-20">
+          <MySideBar />
+        </div>
         <div className="ml-[20%]">
           <MyHeroSection />
         </div>
