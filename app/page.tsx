@@ -13,9 +13,6 @@ export default function Home() {
           <MyHeroSection />
         </div>
       </main>
-      <div className=" md:hidden h-screen w-full flex justify-center items-center">
-        MobileSupport soon :3
-      </div>
     </>
   );
 }

@@ -17,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="hidden md:flex">{children}</div>
+        <div className=" md:hidden h-screen w-full flex justify-center items-center">
+          MobileSupport soon :3 (about me)
+        </div>
+      </body>
     </html>
   );
 }

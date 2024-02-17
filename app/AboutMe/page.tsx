@@ -14,9 +14,6 @@ const page = () => {
           <AboutMeCont />
         </div>
       </div>
-      <div className=" md:hidden h-screen w-full flex justify-center items-center">
-        MobileSupport soon :3 (about me)
-      </div>
     </>
   );
 };
