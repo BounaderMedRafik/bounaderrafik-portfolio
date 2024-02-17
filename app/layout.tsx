@@ -21,7 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="hidden md:block">
-          <Suspense fallback={<MyLoading />}>{children}</Suspense>
+          <Suspense fallback={<MyLoading />}>
+            <div className="relative z-20">
+              <MySideBar />
+            </div>
+            <div className="ml-[20%]">{children}</div>
+          </Suspense>
         </div>
         <div className=" md:hidden h-screen w-full flex justify-center items-center">
           MobileSupport soon :3 (about me)
