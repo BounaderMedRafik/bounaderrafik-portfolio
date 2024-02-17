@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </main>
       <div className=" md:hidden h-screen w-full flex justify-center items-center">
-        No Mobile Support
+        MobileSupport soon :3
       </div>
     </>
   );

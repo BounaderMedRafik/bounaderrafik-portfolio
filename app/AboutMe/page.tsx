@@ -5,14 +5,19 @@ import MySideBarAboutMe from "../components/SideBar/MySideBarAboutMe ";
 
 const page = () => {
   return (
-    <div>
-      <div className="relative z-20">
-        <MySideBarAboutMe />
+    <>
+      <div className="hidden md:block">
+        <div className="relative z-20">
+          <MySideBarAboutMe />
+        </div>
+        <div className="ml-[20%]">
+          <AboutMeCont />
+        </div>
       </div>
-      <div className="ml-[20%]">
-        <AboutMeCont />
+      <div className=" md:hidden h-screen w-full flex justify-center items-center">
+        MobileSupport soon :3 (about me)
       </div>
-    </div>
+    </>
   );
 };
 
