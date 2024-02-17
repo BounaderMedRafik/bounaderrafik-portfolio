@@ -1,5 +1,4 @@
-import Image from "next/image";
-import MySideBar from "./components/SideBar/MySideBar";
+"use client";
 import MyHeroSection from "./components/HeroSection/MyHeroSection";
 
 export default function Home() {
