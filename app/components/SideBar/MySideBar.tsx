@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { RxEyeClosed } from "react-icons/rx";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";

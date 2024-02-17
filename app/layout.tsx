@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import MySideBar from "./components/SideBar/MySideBar";
+import { Suspense } from "react";
+import MyLoading from "./MyLoading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="hidden md:flex">{children}</div>
+        <div className="hidden md:block">
+          <Suspense fallback={<MyLoading />}>{children}</Suspense>
+        </div>
         <div className=" md:hidden h-screen w-full flex justify-center items-center">
           MobileSupport soon :3 (about me)
         </div>
