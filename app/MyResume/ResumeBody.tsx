@@ -3,11 +3,13 @@ import { FaStarOfLife } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
 import { IoMdStarOutline } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
+import { FaUniversity } from "react-icons/fa";
+
 import Image from "next/image";
 import ImagePlacholder from "@/public/IMG_20230927_155014.jpg";
 const ResumeBody = () => {
   return (
-    <div className="w-full p-7">
+    <div className="w-full p-7 bg-[url('/ResumeBodyBG.png')] bg-cover bg-top h-full bg-opacity-30">
       <div>
         <div className="border-b pb-3 text-3xl flex gap-4 justify-start items-center text-blue-400 font-extrabold">
           <FaStarOfLife />
@@ -150,7 +152,30 @@ const ResumeBody = () => {
               />
             </div>
           </div>
-          <div className=" w-1/2 mx-auto h-0.5 bg-gray-300 rounded-full"></div>
+        </div>
+      </div>
+
+      <div>
+        <div className="border-b pb-3 text-3xl flex gap-4 justify-start items-center text-blue-400 font-extrabold">
+          <FaUniversity />
+          Education
+        </div>
+        <div className="px-7 bg-white/10 backdrop-blur-xl">
+          <div className="text-sm pt-6 w-2/3">
+            • I obtained my university education from Chadli Ben Djedid
+            University, where I had the opportunity to learn alongside a
+            talented group of friends. We formed a close-knit group and
+            collaborated on various projects together.
+          </div>
+          <div className="text-sm py-6 w-2/3">
+            • During my time at Chadli Ben Djedid University, I had the
+            privilege of being part of a dynamic club called{" "}
+            <span className="text-blue-500">I-TECH</span>. As a member of this
+            club, I collaborated with a talented group of friends, engaging in
+            various activities and projects related to technology and
+            innovation. It was a valuable experience that enhanced my skills and
+            fostered a strong sense of teamwork.
+          </div>
         </div>
       </div>
     </div>
