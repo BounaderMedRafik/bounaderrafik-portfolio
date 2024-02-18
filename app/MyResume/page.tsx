@@ -3,6 +3,7 @@ import Image from "next/image";
 import PlaceHoldImage from "@/public/IMG_20230927_155014.jpg";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import SkillLangues from "./SkillLangues";
+import ResumeBody from "./ResumeBody";
 
 const page = () => {
   return (
@@ -22,9 +23,12 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full ">
+      <div className=" w-full flex">
         <div className="flex justify-center items-center w-[30%] border-r">
           <SkillLangues />
+        </div>
+        <div className="w-[70%]">
+          <ResumeBody />
         </div>
       </div>
     </>
