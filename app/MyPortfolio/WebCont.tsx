@@ -11,8 +11,8 @@ const WebCont = () => {
         <div className="flex relative gap-3 text-7xl font-black uppercase px-2 py-1 bg-white/10 backdrop-blur-md text-gray-100 border-white/10  rounded-md border">
           Website Dev <IoGlobeOutline />
         </div>
-        <div className="text-[9px] text-gray-300/50 absolute top-1 left-1">
-          Background by : @aaronmahlke
+        <div className="text-[9px] text-gray-300/50 absolute top-1 right-1">
+          Background by : @anapau.martinez.m
         </div>
       </div>
       <div>
