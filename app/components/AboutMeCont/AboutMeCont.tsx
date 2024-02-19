@@ -13,7 +13,6 @@ import { SiPrisma } from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
 import { SiNextdotjs } from "react-icons/si";
 import Spline from "@splinetool/react-spline";
-import { PiSmileyMeh } from "react-icons/pi";
 
 const AboutMeCont = () => {
   return (

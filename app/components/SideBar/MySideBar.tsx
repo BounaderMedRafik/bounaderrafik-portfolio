@@ -14,7 +14,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import Link from "next/link";
 
 const MySideBar = () => {
   return (

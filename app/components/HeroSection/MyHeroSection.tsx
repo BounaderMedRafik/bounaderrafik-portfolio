@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import Spline from "@splinetool/react-spline";
-import { FaGripLines } from "react-icons/fa";
 import { SiRobotframework } from "react-icons/si";
-import { CgWebsite } from "react-icons/cg";
 
 const MyHeroSection = () => {
   return (
