@@ -38,3 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Refrences
 
 [WebDevResume](https://resumekraft.com/wp-content/uploads/2022/02/Web-Developer-Resume.jpg)
+
+## npm downloads
+
+npm i @nextui-org/react framer-motion
