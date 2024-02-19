@@ -6,7 +6,7 @@ import { FaStarOfLife } from "react-icons/fa";
 
 import React from "react";
 import DesignCont from "./DesignCont";
-import WebCont from "./webCont";
+import WebCont from "./WebCont";
 const page = () => {
   return (
     <Tabs defaultValue="design" className="flex w-full h-screen">
