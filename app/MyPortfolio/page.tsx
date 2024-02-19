@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { FaStarOfLife } from "react-icons/fa";
 
 import React from "react";
+import DesignCont from "./DesignCont";
 const page = () => {
   return (
     <Tabs className="flex w-full h-screen">
@@ -29,7 +30,9 @@ const page = () => {
         </TabsTrigger>
       </TabsList>
 
-      <TabsContent value="design">design clicked</TabsContent>
+      <TabsContent className="w-full" value="design">
+        <DesignCont />
+      </TabsContent>
       <TabsContent value="webdev">clicked webdev</TabsContent>
     </Tabs>
   );
