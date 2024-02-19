@@ -6,9 +6,10 @@ import { FaStarOfLife } from "react-icons/fa";
 
 import React from "react";
 import DesignCont from "./DesignCont";
+import WebCont from "./webCont";
 const page = () => {
   return (
-    <Tabs className="flex w-full h-screen">
+    <Tabs defaultValue="design" className="flex w-full h-screen">
       <TabsList className="w-[20%] h-full flex flex-col bg-[url('/MyAboutMeSecBg.jpg')] bg-cover  bg-center   px-5 py-52 border-r">
         <div className="text-xl flex gap-3 items-center font-black uppercase">
           <FaStarOfLife />
@@ -33,7 +34,9 @@ const page = () => {
       <TabsContent className="w-full" value="design">
         <DesignCont />
       </TabsContent>
-      <TabsContent value="webdev">clicked webdev</TabsContent>
+      <TabsContent className="w-full" value="webdev">
+        <WebCont />
+      </TabsContent>
     </Tabs>
   );
 };
