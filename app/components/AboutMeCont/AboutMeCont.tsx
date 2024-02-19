@@ -25,18 +25,18 @@ const AboutMeCont = () => {
         />
         <div className="w-2/3 text-gray-900 text-6xl flex-col font-black z-20  flex justify-center items-start uppercase">
           <IoMdPerson className="z-20" />
-          Let's Talk About Me
+          Let&apos;s Talk About Me
         </div>
         <div className=" text-sm font-normal text-gray-900 w-2/3 z-20 p-2 bg-gray-100/75 backdrop-blur-md border rounded-md border-slate-400">
-          I'm{" "}
+          I&apos;m{" "}
           <span className="text-blue-700 font-bold"> Bounader Med Rafik</span>,
-          a 19-year-old designer and web developer. I've spent four years
+          a 19-year-old designer and web developer. I&apos;ve spent four years
           working on personal design projects, fueling my passion for
           creativity. In addition, I have two years of experience in web
-          development. When I'm not immersed in pixels and code, you can find me
-          hiking in nature, finding inspiration in the great outdoors. I'm
-          excited to leave my mark in the world of design and web development!
-          :)))
+          development. When I&apos;m not immersed in pixels and code, you can
+          find me hiking in nature, finding inspiration in the great outdoors.
+          I&apos;m excited to leave my mark in the world of design and web
+          development! :)))
         </div>
 
         <div className="font-semibold mt-2 z-20">
