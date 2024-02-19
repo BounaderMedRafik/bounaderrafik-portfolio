@@ -29,27 +29,7 @@ const page = () => {
         </TabsTrigger>
       </TabsList>
 
-      <TabsContent className="flex w-full h-screen" value="design">
-        <TabsList className="w-[20%] h-full flex flex-col bg-[url('/MyAboutMeSecBg.jpg')] bg-cover  bg-center   px-5 py-52 border-r">
-          <div className="text-xl flex gap-3 items-center font-black uppercase">
-            <HiPaintBrush />
-            Design
-          </div>
-          <TabsTrigger
-            value="design"
-            className=" cursor-pointer bg-transparent w-full flex gap-4 mt-5 rounded-md justify-start text-sm items-center py-1 px-2 hover:bg-gray-100"
-          >
-            I-Tech Logo
-          </TabsTrigger>
-          <TabsTrigger
-            value="webdev"
-            className=" cursor-pointer w-full bg-transparent text-sm flex gap-4 rounded-md justify-start items-center py-1 px-2 hover:bg-gray-100"
-          >
-            <CgWebsite />
-            Web Developpment
-          </TabsTrigger>
-        </TabsList>
-      </TabsContent>
+      <TabsContent value="design">design clicked</TabsContent>
       <TabsContent value="webdev">clicked webdev</TabsContent>
     </Tabs>
   );
