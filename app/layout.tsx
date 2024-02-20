@@ -4,6 +4,7 @@ import "./globals.css";
 import MySideBar from "./components/SideBar/MySideBar";
 import { Suspense } from "react";
 import MyLoading from "./MyLoading";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,10 @@ export default function RootLayout({
             <div className="relative z-20">
               <MySideBar />
             </div>
-            <div className="ml-[20%]">{children}</div>
+            <div className="ml-[20%]">
+              {children}
+              <SpeedInsights />
+            </div>
           </Suspense>
         </div>
         <div className=" md:hidden h-screen w-full flex justify-center items-center">
