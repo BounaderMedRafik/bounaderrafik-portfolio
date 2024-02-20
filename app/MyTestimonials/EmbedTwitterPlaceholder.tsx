@@ -6,7 +6,7 @@ const EmbedTwitterPlaceholder = () => {
     <>
       <ScrollShadow
         hideScrollBar
-        className="w-full  no-scrollbar drop-shadow-xl  h-[500px]  rounded-md"
+        className="w-full relative  no-scrollbar drop-shadow-xl  h-[500px]  rounded-md"
       >
         <Tweet id="1759618403059552699" />
         <Tweet id="1759618403059552699" />
