@@ -2,7 +2,9 @@
 import React from "react";
 import { BsPersonCircle } from "react-icons/bs";
 import MyLikeBtn from "./MyLikeBtn";
-
+import PostCat from "./PostCat";
+import Image from "next/image";
+import TailwindThumb from "@/public/articles/TailwindThumb.jpg";
 const Articles = () => {
   return (
     <div className="w-[60%] mx-auto p-5 border rounded-md ">
@@ -18,7 +20,25 @@ const Articles = () => {
               </div>
             </a>
             <div>
-              <MyLikeBtn starter="12" />
+              <MyLikeBtn />
+            </div>
+          </div>
+          <div className="flex border-b  w-full py-2">
+            <div className="flex gap-0.5">
+              <PostCat category="tailwind" />
+              <PostCat category="nextJS" />
+            </div>
+          </div>
+          <div className="mt-5">
+            <div className="text-5xl font-bold font-postHead">
+              What is Tailwind?
+            </div>
+            <div className="flex justify-center items-center">
+              <Image
+                className="w-full rounded-md shadow-xl h-52 object-cover"
+                src={TailwindThumb}
+                alt="TailwindThumb"
+              />
             </div>
           </div>
         </div>
