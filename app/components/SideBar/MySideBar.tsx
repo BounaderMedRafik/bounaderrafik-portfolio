@@ -86,7 +86,7 @@ const MySideBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/MyTestimonials"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 pr-6 transition-all"
               >
                 <div className="inline-flex justify-center items-center ml-4">
