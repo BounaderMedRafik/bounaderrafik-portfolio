@@ -1,17 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { BsPersonCircle } from "react-icons/bs";
-import { FaHeart } from "react-icons/fa";
+import MyLikeBtn from "./MyLikeBtn";
 
 const Articles = () => {
-  const [isClicked, setIsClicked] = useState(false);
-  const [counter, setCounter] = useState(12);
-  const handleClick = () => {
-    if (!isClicked) {
-      setIsClicked(true);
-      setCounter(counter + 1);
-    }
-  };
   return (
     <div className="w-[60%] mx-auto p-5 border rounded-md ">
       <div>
@@ -26,16 +18,7 @@ const Articles = () => {
               </div>
             </a>
             <div>
-              <button
-                disabled={isClicked}
-                onClick={handleClick}
-                className={`p-2 items-center justify-center flex gap-1 border rounded-full cursor-pointer hover:opacity-75 hover:-translate-y-0.5 transition-all  ${
-                  isClicked ? "bg-red-100 text-red-500" : ""
-                }`}
-              >
-                <FaHeart />
-                <div className="text-xs">{counter}</div>
-              </button>
+              <MyLikeBtn starter="12" />
             </div>
           </div>
         </div>
