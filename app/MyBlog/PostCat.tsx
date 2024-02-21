@@ -11,6 +11,10 @@ const PostCat = ({ category }: any) => {
         <div className="px-2 text-xs border rounded-full py-0.5 bg-gray-50 text-gray-500">
           NextJS
         </div>
+      ) : category == "clerk" ? (
+        <div className="px-2 text-xs border rounded-full py-0.5 bg-blue-50 text-blue-500">
+          ClerkAuth
+        </div>
       ) : null}
     </>
   );
