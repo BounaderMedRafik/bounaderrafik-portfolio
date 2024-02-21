@@ -11,7 +11,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full bg-[url('/articles/ArticlesPageBanner.jpg')] bg-cover bg-center bg-fixed p-5">
-        <div className=" text-5xl my-5 font-black w-full ">
+        <div className=" text-5xl my-5 px-11 font-black w-full ">
           <div className="flex gap-2 items-center">
             <MdArticle />
             Articles
@@ -22,6 +22,15 @@ const page = () => {
         </div>
         <div>
           <Articles />
+        </div>
+
+        <div className="text-xs text-center mt-9">
+          You want to share an information?
+          <a href="">
+            <span className="ml-1 hover:text-blue-700 text-blue-500 underline">
+              Send it via email
+            </span>
+          </a>
         </div>
       </div>
     </>
