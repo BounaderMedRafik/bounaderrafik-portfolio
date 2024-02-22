@@ -7,6 +7,7 @@ import { FaUniversity } from "react-icons/fa";
 
 import Image from "next/image";
 import ImagePlacholder from "@/public/IMG_20230927_155014.jpg";
+import VYSIOPIC from "@/public/Teams/VYSIO.jpg";
 const ResumeBody = () => {
   return (
     <div className="w-full p-7 bg-[url('/ResumeBodyBG.png')] bg-cover bg-top h-full bg-opacity-30">
@@ -80,7 +81,11 @@ const ResumeBody = () => {
                 </div>
                 <span className="text-blue-500  underline underline-offset-2">
                   <br />◦{" "}
-                  <a className=" hover:text-blue-700" href="">
+                  <a
+                    className=" hover:text-blue-700"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/lokman-touil-50ab90261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  >
                     Touil Lokman
                   </a>
                   <br />◦{" "}
@@ -100,7 +105,7 @@ const ResumeBody = () => {
             </div>
             <div className="w-1/2">
               <Image
-                src={ImagePlacholder}
+                src={VYSIOPIC}
                 alt="VYSIO PICTURE"
                 className="h-full rounded-lg shadow-xl object-cover aspect-video object-center "
               />

@@ -9,9 +9,7 @@ export default function Layout({ children }: any) {
           {children}
         </div>
       </main>
-      <div className="w-full h-screen flex justify-center items-center text-xs">
-        Pretty soon :3
-      </div>
+      <div className="w-full bg-[url('/ComingSoonReactComps.jpg')] bg-cover bg-center h-screen flex justify-center items-center text-xs"></div>
     </>
   );
 }
