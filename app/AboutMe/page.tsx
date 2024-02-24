@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import MySideBar from "../components/SideBar/MySideBar";
 import AboutMeCont from "../components/AboutMeCont/AboutMeCont";
 
 const page = () => {

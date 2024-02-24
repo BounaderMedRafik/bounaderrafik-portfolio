@@ -8,7 +8,7 @@ import { SiWebflow } from "react-icons/si";
 const ProjectItemWeb = ({}: any) => {
   return (
     <>
-      <a href="" target="_blank">
+      <a href="/" target="_blank">
         <div className="w-full hover:bg-gray-900 hover:text-gray-100 text-gray-900 py-2 px-40 border-b transition-all duration-100">
           <div className="text-3xl flex  items-center justify-between font-black">
             <div className="flex gap-3 items-center">
@@ -36,7 +36,7 @@ const ProjectItemWeb = ({}: any) => {
         </div>
       </a>
       {/* */}
-      <a href="" target="_blank">
+      <a href="https://mwkit.webflow.io/" target="_blank">
         <div className="w-full hover:bg-gray-900 hover:text-gray-100 text-gray-900 py-2 px-40 border-b transition-all duration-100">
           <div className="text-3xl flex  items-center justify-between font-black">
             <div className="flex gap-3 items-center">
@@ -61,7 +61,7 @@ const ProjectItemWeb = ({}: any) => {
         </div>
       </a>
       {/* */}
-      <a href="" target="_blank">
+      <a href="https://rebeca-store.webflow.io/" target="_blank">
         <div className="w-full hover:bg-gray-900 hover:text-gray-100 text-gray-900 py-2 px-40 border-b transition-all duration-100">
           <div className="text-3xl flex  items-center justify-between font-black">
             <div className="flex gap-3 items-center">

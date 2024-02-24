@@ -14,12 +14,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 const MySideBar = () => {
   return (
     <div className=" flex flex-col flex-auto flex-shrink-0 antialiased  text-gray-800">
       <div className="fixed flex flex-col top-0 left-0 w-[20%] bg-white h-full border-r">
-        <a href="/">
+        <Link href="/">
           <div className="bg-[url('/SideBarHeaderBG.png')] bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b hover:opacity-80 transition-all">
             <div className="font-black flex items-center justify-center gap-4 px-2 bg-white border cursor-default select-none shadow-md pointer-events-none">
               BounaderMedRafik
@@ -28,7 +29,7 @@ const MySideBar = () => {
               </div>{" "}
             </div>
           </div>
-        </a>
+        </Link>
         <div className="overflow-y-auto overflow-x-hidden flex-grow">
           <ul className="flex flex-col py-4 space-y-1">
             <li className="px-5">
@@ -39,7 +40,7 @@ const MySideBar = () => {
               </div>
             </li>
             <li>
-              <a
+              <Link
                 href="/AboutMe"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 transition-all pr-6 focus:border-r-4"
               >
@@ -50,10 +51,10 @@ const MySideBar = () => {
                 <span className="ml-2 text-sm tracking-wide truncate">
                   About Me
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/MyResume"
                 className="relative flex transition-all flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 pr-6"
               >
@@ -68,10 +69,10 @@ const MySideBar = () => {
                   Updated
                   <MdOutlineTipsAndUpdates />
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/MyPortfolio"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 transition-all pr-6"
               >
@@ -82,10 +83,10 @@ const MySideBar = () => {
                 <span className="ml-2 text-sm tracking-wide truncate">
                   Portfolio
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/MyTestimonials"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500 pr-6 transition-all"
               >
@@ -99,7 +100,7 @@ const MySideBar = () => {
                 <span className="flex justify-center items-center gap-1 px-2 py-0.5 ml-auto text-xs font-bold tracking-wide text-red-500 bg-red-50 ">
                   4.8 <TbStarFilled />
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="px-5">
               <div className="flex flex-row items-center h-8">
@@ -109,8 +110,8 @@ const MySideBar = () => {
               </div>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/MyBlog"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
               >
                 <div className="inline-flex justify-center items-center ml-4">
@@ -120,11 +121,11 @@ const MySideBar = () => {
                 <span className="ml-2 text-sm tracking-wide truncate">
                   Acrticles
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/MyReactComponents"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
               >
                 <div className="inline-flex justify-center items-center ml-4">
@@ -137,7 +138,7 @@ const MySideBar = () => {
                 <span className="px-2 py-0.5 ml-auto text-xs font-bold  tracking-wide text-green-500 bg-green-50 ">
                   New
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="px-5">
               <div className="flex flex-row items-center h-8">
@@ -149,23 +150,29 @@ const MySideBar = () => {
 
             <div className="ml-4 text-gray-600">
               <ul className="w-full h-auto flex items-center justify-start gap-2 ">
-                <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-purple-400 border-transparent border-b-2">
-                  <a href="">
+                <li className="p-2 hidden hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-purple-400 border-transparent border-b-2">
+                  <a href="" target="_blank">
                     <FaInstagram className="w-5 h-5" />
                   </a>
                 </li>
                 <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-slate-400 border-transparent border-b-2">
-                  <a href="">
+                  <a href="https://github.com/BounaderMedRafik" target="_blank">
                     <FaGithub className="w-5 h-5" />
                   </a>
                 </li>
                 <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-blue-400 border-transparent border-b-2">
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/in/bounader-mohamed-rafik-2bb971290/"
+                    target="_blank"
+                  >
                     <FaLinkedinIn className="w-5 h-5" />
                   </a>
                 </li>
                 <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-red-400 border-transparent border-b-2">
-                  <a href="">
+                  <a
+                    href="http://www.youtube.com/@BounaderMohamedRafik"
+                    target="_blank"
+                  >
                     <FaYoutube className="w-5 h-5" />
                   </a>
                 </li>

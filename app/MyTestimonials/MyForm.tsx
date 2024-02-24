@@ -1,6 +1,7 @@
 import React from "react";
 import { FaStarOfLife } from "react-icons/fa";
 import EmbedTwitterPlaceholder from "./EmbedTwitterPlaceholder";
+import { FaXTwitter } from "react-icons/fa6";
 
 const MyForm = () => {
   return (
@@ -13,10 +14,10 @@ const MyForm = () => {
         <div className="text-xs font-normal">
           Join My testimonials list right now
           <a
-            href=""
+            href="https://twitter.com/bwnadrrr"
             className=" font-semibold ml-1 text-blue-600 hover:underline"
           >
-            Twitter/X
+            <FaXTwitter />
           </a>
         </div>
       </div>

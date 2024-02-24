@@ -4,7 +4,6 @@ import { RiTeamFill } from "react-icons/ri";
 import { IoMdStarOutline } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaUniversity } from "react-icons/fa";
-
 import Image from "next/image";
 import ImagePlacholder from "@/public/IMG_20230927_155014.jpg";
 import VYSIOPIC from "@/public/Teams/VYSIO.jpg";
@@ -97,7 +96,11 @@ const ResumeBody = () => {
                     Karamane AbdArahman
                   </a>
                   <br />◦{" "}
-                  <a className=" hover:text-blue-700" href="">
+                  <a
+                    className=" hover:text-blue-700"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ramzibouhadjar/"
+                  >
                     Bouhadjar Ramzi
                   </a>
                 </span>
@@ -105,6 +108,7 @@ const ResumeBody = () => {
             </div>
             <div className="w-1/2">
               <Image
+                loading="lazy"
                 src={VYSIOPIC}
                 alt="VYSIO PICTURE"
                 className="h-full rounded-lg shadow-xl object-cover aspect-video object-center "
@@ -139,7 +143,11 @@ const ResumeBody = () => {
                 </div>
                 <span className="text-blue-500  underline underline-offset-2">
                   <br />◦{" "}
-                  <a className=" hover:text-blue-700" href="">
+                  <a
+                    target="_blank"
+                    className=" hover:text-blue-700"
+                    href="https://www.linkedin.com/in/siradj-lamri/"
+                  >
                     Siraj Mounir Lamri
                   </a>
                   <br />◦{" "}
@@ -151,8 +159,9 @@ const ResumeBody = () => {
             </div>
             <div className="w-1/2">
               <Image
+                loading="lazy"
                 src={ImagePlacholder}
-                alt="VYSIO PICTURE"
+                alt="PlaceHolder"
                 className="h-full rounded-lg shadow-xl object-cover aspect-video object-center "
               />
             </div>
