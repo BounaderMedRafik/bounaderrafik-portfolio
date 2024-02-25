@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import AboutMeCont from "../components/AboutMeCont/AboutMeCont";
+import LoadingpPage from "../components/LoadingpPage";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
           <AboutMeCont />
         </div>
       </div>
+      <LoadingpPage />
     </>
   );
 };

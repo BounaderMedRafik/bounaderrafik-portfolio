@@ -5,6 +5,7 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import SkillLangues from "./SkillLangues";
 import ResumeBody from "./ResumeBody";
 import ResumePFP from "@/public/ResumePFP.jpg";
+import LoadingpPage from "../components/LoadingpPage";
 
 const page = () => {
   return (
@@ -37,6 +38,7 @@ const page = () => {
           <ResumeBody />
         </div>
       </div>
+      <LoadingpPage />
     </>
   );
 };

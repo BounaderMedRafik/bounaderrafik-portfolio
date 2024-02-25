@@ -1,6 +1,7 @@
 import React from "react";
 import Articles from "./Articles";
 import { MdArticle } from "react-icons/md";
+import LoadingpPage from "../components/LoadingpPage";
 
 const page = () => {
   return (
@@ -33,6 +34,7 @@ const page = () => {
           </a>
         </div>
       </div>
+      <LoadingpPage />
     </>
   );
 };

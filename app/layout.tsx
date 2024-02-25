@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import MySideBar from "./components/SideBar/MySideBar";
-import { Suspense } from "react";
-import MyLoading from "./MyLoading";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -33,7 +31,7 @@ export default function RootLayout({
             <MySideBar />
           </div>
           <div className="ml-[20%]">
-            <Suspense fallback={<MyLoading />}>{children}</Suspense>
+            {children}
             <SpeedInsights />
           </div>
         </div>
