@@ -1,44 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
 
-## Getting Started
+<h1>My Official Portfolio</h1>
+<p>My portfolio is a reflection of who I am as a professional. It encompasses my projects, blog, and resume, showcasing my skills and expertise. Through my projects, I demonstrate my abilities and provide tangible evidence of my capabilities. My blog serves as a platform to share my thoughts and insights, establishing myself as an authority in my field. Additionally, my resume encapsulates my work experience and skills, giving potential employers a comprehensive overview of my qualifications. By curating a well-rounded portfolio, I aim to make a lasting impression and open doors to new opportunities in my career journey.</p>
 
-First, run the development server:
+<h4> <a href=https://bounaderrafik-portfolio.vercel.app/>View Demo</a> <span> · </span> <a href="https://github.com/BounaderMedRafik/bounaderrafik-portfolio/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/BounaderMedRafik/bounaderrafik-portfolio/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/BounaderMedRafik/bounaderrafik-portfolio/issues"> Request Feature </a> </h4>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Refrences
-
-[WebDevResume](https://resumekraft.com/wp-content/uploads/2022/02/Web-Developer-Resume.jpg)
-
-## npm downloads
-
-npm i @nextui-org/react framer-motion
+</div>
