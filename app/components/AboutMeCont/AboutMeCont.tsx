@@ -80,8 +80,9 @@ const AboutMeCont = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red-500 w-1/3 ml-auto h-screen border-l">
+      <div className=" w-1/3 ml-auto h-screen border-l">
         <Image
+          loading="lazy"
           src={BeachPic}
           className="h-screen object-cover "
           alt="My Picture Of Me In The Beach"

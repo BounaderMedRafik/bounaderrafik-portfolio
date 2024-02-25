@@ -11,10 +11,10 @@ const MyForm = () => {
           <FaStarOfLife size={20} />
           Testimonials
         </div>
-        <div className="text-xs font-normal">
+        <div className="text-xs flex gap-1 items-center font-normal">
           Join My testimonials list right now
           <a
-            href="https://twitter.com/bwnadrrr"
+            href="https://twitter.com/@bwnadrrr"
             className=" font-semibold ml-1 text-blue-600 hover:underline"
           >
             <FaXTwitter />

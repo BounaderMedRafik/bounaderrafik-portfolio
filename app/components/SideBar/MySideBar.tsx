@@ -150,11 +150,6 @@ const MySideBar = () => {
 
             <div className="ml-4 text-gray-600">
               <ul className="w-full h-auto flex items-center justify-start gap-2 ">
-                <li className="p-2 hidden hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-purple-400 border-transparent border-b-2">
-                  <a href="" target="_blank">
-                    <FaInstagram className="w-5 h-5" />
-                  </a>
-                </li>
                 <li className="p-2 hover:bg-gray-100 transition-all hover:border-b-2 hover:border-b-slate-400 border-transparent border-b-2">
                   <a href="https://github.com/BounaderMedRafik" target="_blank">
                     <FaGithub className="w-5 h-5" />

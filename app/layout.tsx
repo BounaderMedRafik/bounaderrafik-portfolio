@@ -5,6 +5,7 @@ import MySideBar from "./components/SideBar/MySideBar";
 import { Suspense } from "react";
 import MyLoading from "./MyLoading";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { AnimatePresence } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,18 +23,16 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="hidden md:block">
-          <Suspense fallback={<MyLoading />}>
-            <div className="relative z-20">
-              <MySideBar />
-            </div>
-            <div className="ml-[20%]">
-              {children}
-              <SpeedInsights />
-            </div>
-          </Suspense>
+          <div className="relative z-20">
+            <MySideBar />
+          </div>
+          <div className="ml-[20%]">
+            <Suspense fallback={<MyLoading />}>{children}</Suspense>
+            <SpeedInsights />
+          </div>
         </div>
         <div className=" md:hidden h-screen w-full flex justify-center items-center">
-          MobileSupport soon :3 (about me)
+          MobileSupport Unavailable <br /> Soon It WIll Be
         </div>
       </body>
     </html>

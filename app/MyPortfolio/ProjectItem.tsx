@@ -35,7 +35,6 @@ const ProjectItem = ({}: any) => {
       <a
         href="https://www.figma.com/proto/z8HgDLF6RZt7UsmMHJnjCI/ITech-Badge-Template-Desgin?type=design&node-id=46-87&t=va14FXOaREjqjiPQ-0&scaling=min-zoom&page-id=0%3A1"
         target="_blank"
-        className="hidden"
       >
         <div className="w-full hover:bg-gray-900 hover:text-gray-100 text-gray-900 py-2 px-40 border-b transition-all duration-100">
           <div className="text-3xl flex  items-center justify-between font-black">
