@@ -13,7 +13,7 @@ const page = () => {
     <>
       {" "}
       <Tabs defaultValue="design" className="flex w-full h-screen">
-        <TabsList className="w-[20%] h-full flex flex-col bg-[url('/MyAboutMeSecBg.jpg')] bg-cover  bg-center   px-5 py-52 border-r">
+        <TabsList className="w-[20%] h-full flex flex-col bg-cover  bg-center   px-5 py-52 border-r">
           <div className="text-xl flex gap-3 items-center font-black uppercase">
             <FaStarOfLife />
             Category

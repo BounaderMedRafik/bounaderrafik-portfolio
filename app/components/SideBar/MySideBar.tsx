@@ -21,7 +21,7 @@ const MySideBar = () => {
     <div className=" flex flex-col flex-auto flex-shrink-0 antialiased  text-gray-800">
       <div className="fixed flex flex-col top-0 left-0 w-[20%] bg-white h-full border-r">
         <Link href="/">
-          <div className=" bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b hover:opacity-80 transition-all">
+          <div className=" bg-[url('/SideBarHeaderBG.png')] bg-cover bg-right-bottom  flex items-center justify-center h-14 border-b hover:opacity-80 transition-all">
             <div className="font-black flex items-center justify-center gap-4 px-2 bg-white border cursor-default select-none shadow-md pointer-events-none">
               BounaderMedRafik
               <div className="relative flex">
@@ -109,7 +109,7 @@ const MySideBar = () => {
                 </div>
               </div>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/MyBlog"
                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
@@ -122,7 +122,7 @@ const MySideBar = () => {
                   Acrticles
                 </span>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/MyReactComponents"

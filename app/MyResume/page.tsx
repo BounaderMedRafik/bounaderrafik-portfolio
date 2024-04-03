@@ -19,7 +19,7 @@ const page = () => {
             alt="Resume pic"
           />
         </div>
-        <div className="w-[70%] h-full flex items-center justify-center flex-col bg-[url('/MyAboutMeSecBg.jpg')] bg-cover bg-center">
+        <div className="w-[70%] h-full flex items-center justify-center flex-col  bg-cover bg-center">
           <div className="text-gray-900 font-black text-6xl text-center">
             Bounader Mohamed Rafik
           </div>

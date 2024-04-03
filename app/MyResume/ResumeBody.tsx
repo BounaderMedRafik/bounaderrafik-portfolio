@@ -9,7 +9,7 @@ import ImagePlacholder from "@/public/IMG_20230927_155014.jpg";
 import VYSIOPIC from "@/public/Teams/VYSIO.jpg";
 const ResumeBody = () => {
   return (
-    <div className="w-full p-7 bg-[url('/ResumeBodyBG.png')] bg-cover bg-top h-full bg-opacity-30">
+    <div className="w-full p-7  bg-cover bg-top h-full bg-opacity-30">
       <div>
         <div className="border-b pb-3 text-3xl flex gap-4 justify-start items-center text-blue-400 font-extrabold">
           <FaStarOfLife />
