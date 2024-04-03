@@ -6,7 +6,7 @@ import { SiRobotframework } from "react-icons/si";
 const MyHeroSection = () => {
   return (
     <>
-      <div className="bg-[url('/HeroSecBG3.svg')] bg-cover bg-center">
+      <div className=" bg-cover bg-center">
         <div className="w-full h-screen absolute top-0 left-0 z-10 backdrop-blur-sm">
           <Spline scene="https://prod.spline.design/yPTWQQOqP6L0Se0w/scene.splinecode" />
         </div>

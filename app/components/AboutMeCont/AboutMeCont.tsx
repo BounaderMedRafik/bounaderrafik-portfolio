@@ -16,7 +16,7 @@ import Spline from "@splinetool/react-spline";
 
 const AboutMeCont = () => {
   return (
-    <div className="h-screen flex items-center justify-center overflow-hidden bg-cover bg-top bg-[url('/MyAboutMeSecBg.jpg')]">
+    <div className="h-screen flex items-center justify-center overflow-hidden bg-cover bg-top">
       <div className=" z-20 pointer-events-none ml-2 w-2/3 h-screen relative flex justify-center items-start flex-col">
         <Spline
           className="blur-md z-10 absolute top-0 left-0 "
